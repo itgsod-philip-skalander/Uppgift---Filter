@@ -1,13 +1,25 @@
 def filter(array:, value:)
-  slutlista=[]
-  array.each do |värde|
-    if värde != value
-      slutlista << värde
+  complete_list=[]
+  array.each do |name|
+    if name == value
+      complete_list << name
     end
   end
-  return slutlista
+  return complete_list
 
 end
-array1=[2,3,1,3,5,2,2]
-value1=3
-p filter(array: array1, value: value1)
+
+def exclude(array:, value:)
+  complete_list=[]
+  array.each do |name|
+    if name != value
+      complete_list << name
+    end
+  end
+  return complete_list
+
+end
+
+def unique(array: value:)
+  
+end
