@@ -57,7 +57,7 @@ Unika: `unique`
 
     exclude(array: [["bosse", "daniel", "edvard", "bosse", "bosse"], value: "bosse") #=> [daniel", "edvard"]
 
-    unique(array: [["bosse", "daniel", "edvard", "bosse", "bosse"], "bosse") #=> ["bosse","daniel", "edvard"]
+    unique(array: [["bosse", "daniel", "edvard", "bosse"], "bosse") #=> ["bosse","daniel", "edvard"]
 
 ### Python ####
 
